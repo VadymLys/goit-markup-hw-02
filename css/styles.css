@@ -1,0 +1,95 @@
+body {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    
+
+}
+
+.logo {
+  color: var(--NAVY-BLUE, #2E2F42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px; 
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.nav{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+     color: var(--NAVY-BLUE, #2E2F42);
+     font-family: Roboto;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 24px;
+     letter-spacing: 0.32px; 
+      margin-top: 24px;
+     margin-bottom: 24px;
+}
+
+.nav-links{
+    color: var(--NAVY-BLUE, #2E2F42);
+     font-family: Roboto;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 24px;
+     letter-spacing: 0.32px;
+   
+     
+}
+
+.contact{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.contact-links{
+    color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+
+
+.solutions {
+   color: var(--WHITE, #FFF);
+   text-align: center;
+   font-family: Roboto;
+   font-size: 56px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 60px; /* 107.143% */
+   letter-spacing: 1.12px;
+   background-color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.service-button{
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.benefits{
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+

@@ -29,48 +29,39 @@ body {
    font-size: 16px;
    font-weight: 500;
    line-height: 1.5;
-   letter-spacing: 0.02px; 
+   letter-spacing: 0.02em; 
    margin-top: 24px;
    margin-bottom: 24px;
 }
 
-.nav-links{
-    color:  #2E2F42;
-     font-size: 16px;
-     font-weight: 500;
-     line-height: 1.5px;
-     letter-spacing: 0.02px;
-     margin-top: 24px;
-     margin-bottom: 24px;
-   
-     
-}
 
-.nav-links-1{
+   
+
+.nav-links{
     color:  #2E2F42;
     font-weight: 500;
      line-height: 1.5;
-     letter-spacing: 0.02px; 
+     letter-spacing: 0.02em; 
      font-size: 16px;
      margin-top: 24px;
      margin-bottom: 24px;
 }
 
-.nav-links-2{
+.nav-links{
     color:  #2E2F42;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02px; 
+    letter-spacing: 0.02em; 
     font-size: 16px;
     margin-top: 24px;
     margin-bottom: 24px;
 }
 
-.nav-links-3{
+.nav-links{
     color:  #2E2F42;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02px; 
+    letter-spacing: 0.02em; 
     font-size: 16px;
     margin-top: 24px;
     margin-bottom: 24px;
@@ -146,7 +137,7 @@ body {
     background-color:#404BBF;
 }
 
-.about-text-1{
+.about-text{
     font-weight:500;
     font-size:20px;
     line-height:1.2;
@@ -154,7 +145,7 @@ body {
     color:#2e2f42;
 }
 
-.about-text-2{
+.about-text{
     font-weight:500;
     font-size:20px;
     line-height:1.2;
@@ -162,7 +153,7 @@ body {
     color:#2e2f42;
 }
 
-.about-text-3{
+.about-text{
     font-weight:500;
     font-size:20px;
     line-height:1.2;
@@ -170,7 +161,7 @@ body {
     color:#2e2f42;
 }
 
-.about-text-4{
+.about-text{
     font-weight:500;
     font-size:20px;
     line-height:1.2;

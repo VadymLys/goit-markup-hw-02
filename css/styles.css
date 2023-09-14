@@ -67,11 +67,11 @@ body {
     margin-bottom: 24px;
 }
 
-.nav-links-1:hover{
+.nav-links:hover{
     color:#404bbf;
 }
 
-.nav-links-1:focus{
+.nav-links:focus{
     color:#404bbf;
 }
 
@@ -89,8 +89,7 @@ body {
 
 
 .contact-links{
-    color: var(--SLATE, #434455);
-    
+    color:  #434455;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -110,7 +109,6 @@ body {
    color: var(--WHITE, #FFF);
    text-align: center;
    font-family: "Roboto", sans-serif;
-   
    font-style: normal;
    font-weight: 700;
    line-height: 60px; /* 107.143% */
@@ -120,7 +118,7 @@ body {
 
 .service-button{
     font-family: "Roboto", sans-serif;
-    background: var(--IRIS, #4D5AE5);
+    background:  #4D5AE5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -174,5 +172,35 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
+}
+
+.about-team{
+    background-color:#F4F4FD;
+}
+
+
+
+.about-person{
+    font-size: 36px;
+    line-height:1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42;
+}
+
+.about-1 {
+
+    font-weight:500;
+    font-size:20px;
+    line-height:1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+
+.about-desc{
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+    font-size: 16px;
 }
 

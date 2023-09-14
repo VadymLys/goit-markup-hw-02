@@ -190,6 +190,10 @@ body {
    
 }
 
+.people{
+    background-color: #FFFFFF;
+}
+
 .about-1 {
 
     font-weight:500;
@@ -233,3 +237,16 @@ body {
     color: #434455;
 }
 
+.information{
+    background-color: #2e2f42;
+}
+
+.logo-text-1{
+    color: #f4f4fd;
+}
+
+.desc{
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+}

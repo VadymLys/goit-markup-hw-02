@@ -20,31 +20,60 @@ body {
 
 .logo-text{
     color:#2e2f42;
+   
 }
 
 .nav{
     
-   color: var(--NAVY-BLUE, #2E2F42);
-     
-     font-size: 16px;
-     font-style: normal;
-     font-weight: 500;
-     line-height: 24px;
-     letter-spacing: 0.32px; 
-      margin-top: 24px;
-     margin-bottom: 24px;
+   color:  #2E2F42;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.02px; 
+   margin-top: 24px;
+   margin-bottom: 24px;
 }
 
 .nav-links{
-    color: var(--NAVY-BLUE, #2E2F42);
-     
+    color:  #2E2F42;
      font-size: 16px;
-     font-style: normal;
      font-weight: 500;
-     line-height: 24px;
-     letter-spacing: 0.32px;
+     line-height: 1.5px;
+     letter-spacing: 0.02px;
+     margin-top: 24px;
+     margin-bottom: 24px;
    
      
+}
+
+.nav-links-1{
+    color:  #2E2F42;
+    font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.02px; 
+     font-size: 16px;
+     margin-top: 24px;
+     margin-bottom: 24px;
+}
+
+.nav-links-2{
+    color:  #2E2F42;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02px; 
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.nav-links-3{
+    color:  #2E2F42;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02px; 
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .nav-links-1:hover{
@@ -82,7 +111,7 @@ body {
 
 .solutions-text{
     font-size: 56px;
-    line-height: 1.17;
+    line-height: 1.07;
     letter-spacing: 0.02em;
 }
 
@@ -110,11 +139,49 @@ body {
 }
 
 .service-button:hover{
-    color:#404BBF;
+    background-color:#404BBF;
 }
 
 .service-button:focus{
-    color:#404BBF;
+    background-color:#404BBF;
+}
+
+.about-text-1{
+    font-weight:500;
+    font-size:20px;
+    line-height:1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+
+.about-text-2{
+    font-weight:500;
+    font-size:20px;
+    line-height:1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+
+.about-text-3{
+    font-weight:500;
+    font-size:20px;
+    line-height:1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+
+.about-text-4{
+    font-weight:500;
+    font-size:20px;
+    line-height:1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
 }
   
+.about-desc{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
 

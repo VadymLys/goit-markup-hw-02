@@ -1,27 +1,31 @@
 body {
     font-family: "Roboto", sans-serif;
     text-decoration: none;
+    color:#434455;
+    background-color: #FFFFFF;
     
 
 }
 
 .logo {
-  color: var(--NAVY-BLUE, #2E2F42);
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px; 
+  line-height: 1.17; 
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
+.logo-text{
+    color:#2e2f42;
+}
+
 .nav{
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 40px;
-     color: var(--NAVY-BLUE, #2E2F42);
-     font-family: Roboto;
+    
+   color: var(--NAVY-BLUE, #2E2F42);
+     
      font-size: 16px;
      font-style: normal;
      font-weight: 500;
@@ -33,7 +37,7 @@ body {
 
 .nav-links{
     color: var(--NAVY-BLUE, #2E2F42);
-     font-family: Roboto;
+     
      font-size: 16px;
      font-style: normal;
      font-weight: 500;
@@ -43,31 +47,50 @@ body {
      
 }
 
-.contact{
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 40px;
+.nav-links-1:hover{
+    color:#404bbf;
 }
+
+.nav-links-1:focus{
+    color:#404bbf;
+}
+
+.contact-info{
+    font-style:normal;
+}
+
+.contact-links:hover{
+    color:#404bbf;
+}
+
+.contact-links:focus{
+    color:#404bbf;
+}
+
 
 .contact-links{
     color: var(--SLATE, #434455);
-    font-family: Roboto;
+    
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.32;
+    letter-spacing: 0.02em;
     margin-top: 24px;
     margin-bottom: 24px;
 }
 
-
+.solutions-text{
+    font-size: 56px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+}
 
 .solutions {
    color: var(--WHITE, #FFF);
    text-align: center;
-   font-family: Roboto;
-   font-size: 56px;
+   font-family: "Roboto", sans-serif;
+   
    font-style: normal;
    font-weight: 700;
    line-height: 60px; /* 107.143% */
@@ -76,20 +99,22 @@ body {
 }
 
 .service-button{
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
     background: var(--IRIS, #4D5AE5);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:#ffffff;
+    cursor:pointer;
 }
 
-.benefits{
-    display: flex;
-    width: 264px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+.service-button:hover{
+    color:#404BBF;
 }
+
+.service-button:focus{
+    color:#404BBF;
+}
+  
 
